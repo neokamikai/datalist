@@ -1,0 +1,35 @@
+.data-list-holder >.data-list-filter>.data-list-search {
+	float:right
+}
+.data-list-holder >.data-list-filter>.data-list-length-menu{
+	float:left;
+}
+
+.data-list-holder >.data-list-page-buttons {
+	float:left;
+	width:100%;
+	text-align: center;
+}
+.data-list-holder >.data-list-page-buttons>button[disabled] {
+	color: #404040;
+	background:transparent;
+	border: 0
+}
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-first,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-last,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-next,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-prev,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button{
+	min-width: 36px;
+	min-height: 34px;
+}
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-first,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-last,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-next,
+.data-list-holder >.data-list-page-buttons>.data-list-page-button-prev{
+	min-width: 72px;
+}
+.data-list-holder >ul {
+	float:left;
+	width:100%
+}
